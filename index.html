@@ -1,0 +1,27 @@
+<html>
+<head>
+    <link href="css/style.css" rel="stylesheet">
+</head>
+<body>
+    <div class="content">
+        <h2>Marvel Super Heros</h2>
+        <input type="text" id="searchBox" onkeyup="search()" placeholder="Search for names" title="Type name">
+        <div class="text-center">
+            <table id='marvel-hero'>
+            <tr>
+                <th>Name</th>
+                <th>Weapon</th>
+                <th>Power</th>
+                <th>Year Created</th>
+            </tr>
+        </table>
+        </div>
+        <div class="content text-center">
+            <button class="btn" onclick="filterFromAToM()"> A - M</button>
+            <button class="btn" onclick="filterFromPToZ()"> P - Z</button>
+        </div>
+    </div>
+    <script src="js/jquery.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
